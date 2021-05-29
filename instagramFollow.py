@@ -22,7 +22,7 @@ chrome_options.add_argument("user-data-dir=chrome-data")
 chrome_options.add_argument(f"user-data-dir={scriptDirectory}\\userdata")
 driver = webdriver.Chrome("./chromedriver.exe", chrome_options=chrome_options)
 
-
+driver.get("https://www.like4like.org/login/")
 print(input("login instagram and like4like:"))
 driver.get("https://www.like4like.org/free-instagram-followers-likes-and-comments-exchange.php")
 def instagramFollow():
@@ -50,6 +50,10 @@ def instagramFollow():
         time.sleep(1)
         driver.find_element_by_xpath("//button[normalize-space()='Unfollow']").click()
 
+
+
+
+
     else:
         print("Instagram follow/unfollow button not found")
     time.sleep(2)
@@ -60,8 +64,12 @@ def instagramFollow():
     driver.find_element_by_css_selector(confirm).click()
     time.sleep(1)
 
+coun = 1
 while True:
     try:
         instagramFollow()
+        print("times run ============================= ", coun)
+        coun += 1
     except:
         pass
+
