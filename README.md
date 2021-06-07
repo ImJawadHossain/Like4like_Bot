@@ -7,4 +7,4 @@ Here you can exchange Social Media Likes, Followers, Shares, Comments, Subscribe
 **If you want to get likes, you need to like someone Social Media. You did it many more times. And if you wnad to get 100 page likes you need to spend 2-5 hours time.**
 ## What's the solution?
 **Simple just use the [Like4Like Bot.](https://github.com/ImJawadHossain/Like4like_Bot) Here you don't need follow someone manually, It will do automatically. 
-</br>***So what are you waiting for! Let's get started!***
+</br>***So why you waiting for! Let's get started!***
